@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:food_ui_kit/screens/home/home_screen.dart';
-import 'package:food_ui_kit/theme.dart';
+import 'package:food_app_ui/screens/home/home_screen.dart';
+import 'package:food_app_ui/theme.dart';
 
 void main() {
   runApp(MyApp());
