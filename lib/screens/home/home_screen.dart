@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_app_ui/constants.dart';
+import 'package:food_app_ui/demoData.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -63,6 +64,12 @@ class HomeScreen extends StatelessWidget {
                   ))
             ],
           ),
+          SliverToBoxAdapter(
+            child: AspectRatio(
+              aspectRatio: 1.81,
+              child: Image.asset(demoBigImages[0]),
+            ),
+          )
         ],
       ),
     );
